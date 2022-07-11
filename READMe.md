@@ -2,12 +2,12 @@
 
 This is my attempt at the Buycoins React / React Native developer job challenge. The app is a basic React + GraphQL web job listing application that features filtering and seraching by job title, location, company name and tags.
 
-The tools used incude React, TypeScript (all files are typed), SASS(SCSS) and axios for the GraphQl request.
+The tools used incude React, TypeScript (all components are typed), SASS(SCSS) and axios for the GraphQl request.
 
 ###### **FOLDER STRUCTURE**
 
-* Components: contains functional components that do not manage overall app state by themselves, they are fed with props or static.
-* Containers: contains React components that manage overall app state and feed children components with life.
+* **Components**: contains functional components that do not manage overall app state by themselves, they are fed with props or are static.
+* **Containers**: contains React components that manage overall app state and feed children components with life.
 
 ###### **APP LOGIC**
 
