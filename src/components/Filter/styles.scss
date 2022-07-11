@@ -1,0 +1,19 @@
+.filter {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  padding: 0.25rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.2s;
+
+  &.checked {
+    background-color: var(--color-primary);
+    color: white;
+  }
+
+  &:hover,
+  &:active {
+    opacity: 0.7;
+  }
+}
